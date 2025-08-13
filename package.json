@@ -11,14 +11,16 @@
     "db:reset": "rm -f prisma/dev.db && npx prisma migrate dev --name reset"
   },
   "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "form-data": "4.0.0",
+    "multer": "1.4.5-lts.1",
     "next": "14.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "prisma": "5.16.2",
-    "@prisma/client": "5.16.2",
     "stripe": "14.25.0",
-    "zod": "3.23.8",
-    "form-data": "4.0.0",
-    "multer": "1.4.5-lts.1"
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^6.14.0"
   }
 }
